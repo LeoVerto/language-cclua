@@ -161,5 +161,97 @@
     'match': '\\+|-|%|#|\\*|\\/|\\^|==?|~=|<=?|>=?|(?<!\\.)\\.{2}(?!\\.)'
     'name': 'keyword.operator.lua'
   }
+  {
+    'match': '(?<![^.]\\.|:)\\b(bit\\.(blshift|brshift|blogic_rshift|bxor|bor|band|bnot)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.bit.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(colors\\.(combine|subtract|test)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.colors.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(commands\\.(exec|execAsync|list|getBlockPosition|getBlockInfo)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.commands.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(coroutine\\.(create|resume|running|status|wrap|yield)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.coroutine.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(disk\\.(isPresent|hasData|getMountPath|[gs]etLabel|getID|hasAudio|getAudioTitle|playAudio|stopAudio|eject)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.disk.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(fs\\.(list|exists|isDir|isReadOnly|getName|getDrive|getSize|getFreeSpace|makeDir|move|copy|delete|combine|open|find|getDir|complete)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.fs.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(gps\\.(locate)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.gps.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(help\\.(path|setPath|lookup|topics)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.help.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(http\\.(request|get|post)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.http.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(key\\.(.getName)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.keys.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(multishell\\.(getCurrent|getCount|launch|[gs]etFocus|[gs]etTitle)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.multishell.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(os\\.(version|(?:[gs]et)?[cC]omputerID|(?:[gs]et?[cC]omputerLabel|run|(?:un)?loadAPI|pullEvent(?:Raw)?|queueEvent|clock|startTimer|cancelTimer|time|sleep|sleep|day|setAlarm|cancelAlarm|shutdown|reboot)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.os.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(paintutils\\.(loadImage|drawImage|drawPixel|drawLine|drawBox|drawFilledBox)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.paintutils.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(parallel\\.(waitForAny|waitForAll)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.parallel.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(peripheral\\.(isPresent|getType|getMethods|call|wrap|find|getNames)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.peripheral.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(rednet\\.(open|close|send|broadcast|receive|isOpen|host|lookup|unhost|lookup|run)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.rednet.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(redstone\\.(getSides|getInput|[gs]etOutput|getAnalogInput|[gs]etAnalogOutput|getBundledInput|[gs]etBundledOutput|testBundledInput)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.redstone.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(shell\\.(exit|dir|setDir|path|setPath|resolve|resolveProgram|aliases|setAlias|clearAlias|programs|getRunningProgram|run|openTab|switchTab)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.shell.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(term\\.(write|blit|clear|clearLine|[gs]etCursorPos|setCursorBlink|isColor|getSize|scroll|redirect|current|native|[gs]etTextColor|[gs]etBackgroundColor)|monitor\\.(setTextScale)|window\\.(setVisible|redraw|restoreCursor|getPosition|reposition)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.term.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(textutils\\.(slowWrite|slowPrint|formatTime|tabulate|pagedTabulate|pagedPrint|serialize|unserialize|serializeJSON|urlEncode|complete)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.textutils.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(turtle\\.(craft|forward|back|up|down|turnLeft|turnRight|select|getSelectedSlot|getItemCount|getItemSpace|getItemDetail|equipLeft|equipRight|attack|attackUp|attackDown|dig|digUp|digDown|place|placeUp|placeDown|detect|detectUp|detectDown|inspect|inspectUp|inspectDown|compare|compareUp|compareDown|compareTo|drop|dropUp|dropDown|suck|suckUp|suckDown|refuel|getFuelLevel|getFuelLimit|transferTo)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.turtle.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(vector\\.(new)|:add|:sub|:mul|:dot|:cross|:length|:normalize|:round|:tostring\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.vector.cclua'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(window\\.(create)\\b(?=\\s*(?:[({"\']|\\[\\[))'
+    'name': 'support.function.api.window.cclua'
+  }
 ]
 'scopeName': 'source.lua'
