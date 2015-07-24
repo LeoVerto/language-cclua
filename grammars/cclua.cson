@@ -1,10 +1,10 @@
-'comment': 'Lua Syntax: version 0.8'
+'comment': 'ComputerCraft Lua Syntax: version 0.1'
 'fileTypes': [
   'lua'
-  'nse'
+  'cclua'
 ]
 'firstLineMatch': '\\A#!.*?\\blua\\b'
-'name': 'Lua'
+'name': 'Computer Craft Lua'
 'patterns': [
   {
     'captures':
