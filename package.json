@@ -4,7 +4,7 @@
   "private": false,
   "author": "LeoVerto <LeoVerto@users.noreply.github.com>",
   "description": "Add syntax highlighting and snippets to ComputerCraft Lua files in Atom",
-  "repository": "https://github.com/FireZenk/language-cclua",
+  "repository": "https://github.com/LeoVerto/language-cclua",
   "license": "MIT",
   "engines": {
     "atom": ">=0.50.0"
