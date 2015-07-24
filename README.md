@@ -1,4 +1,4 @@
-Lua language support in Atom
+[ComputerCraft](http://www.computercraft.info/) Lua language support in Atom
 ======
 
 Add syntax highlighting and snippets to Lua files in Atom.
@@ -81,11 +81,13 @@ Math function snippets
 | tan           | math.tan                 | math.tan(x)          |
 | tanh          | math.tanh                | math.tanh(x)         |
 
-Author
+Authors
 ------
-__Jorge Garrido Oval__
-* [https://github.com/FireZenk](https://github.com/FireZenk)
+__Jorge Garrido Oval__ creator of [FireZenk/language-lua](https://github.com/FireZenk/language-lua)
+* https://github.com/FireZenk
 
+__Leo Verto__
+* https://github.com/LeoVerto
 
 Contributors
 ---
