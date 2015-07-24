@@ -3,7 +3,7 @@
   'lua'
   'cclua'
 ]
-'firstLineMatch': '\\A#!.*?\\blua\\b'
+'firstLineMatch': '\\A#!.*?\\bcclua\\b'
 'name': 'Computer Craft Lua'
 'patterns': [
   {
@@ -254,4 +254,4 @@
     'name': 'support.function.api.window.cclua'
   }
 ]
-'scopeName': 'source.lua'
+'scopeName': 'source.cclua'
