@@ -3,8 +3,7 @@
 
 Add syntax highlighting and snippets to Lua files in Atom.
 
-See: https://atom.io/packages/language-lua
-and: https://www.npmjs.com/package/language-lua
+To install, clone somewhere and run `atom link` in the cloned directory.
 
 Common snippets
 ---
