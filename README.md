@@ -82,11 +82,9 @@ Math function snippets
 
 Authors
 ------
-__Jorge Garrido Oval__ creator of [FireZenk/language-lua](https://github.com/FireZenk/language-lua)
-* https://github.com/FireZenk
-
-__Leo Verto__
-* https://github.com/LeoVerto
+* [Jorge Garrido Oval](https://github.com/FireZenk) creator of [FireZenk/language-lua](https://github.com/FireZenk/language-lua)
+* [Leo Verto](https://github.com/LeoVerto)
+* [Ruzael](https://github.com/Ruzael)
 
 Contributors
 ---
