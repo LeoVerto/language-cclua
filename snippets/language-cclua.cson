@@ -1,4 +1,4 @@
-'.source.lua':
+'.source.cclua':
 #Common Snippets
   'multiline comment':
     'prefix': '-['
