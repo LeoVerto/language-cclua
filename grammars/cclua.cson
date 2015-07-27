@@ -4,7 +4,7 @@
   'cclua'
 ]
 'firstLineMatch': '\\A#!.*?\\bcclua\\b'
-'name': 'Computer Craft Lua'
+'name': 'ComputerCraft (Lua)'
 'patterns': [
   {
     'captures':
