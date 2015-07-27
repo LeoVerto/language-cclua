@@ -4,3 +4,5 @@ npm-debug.log
 .idea
 out
 gen
+# OSX
+.DS_Store
