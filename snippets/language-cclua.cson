@@ -191,756 +191,756 @@
     'prefix': 'brshift',
     'body': 'bit.brshift(${1:n}, ${2:bits})'
   'bit.blogic rshift':
-    'prefix': 'bit.blogic_rshift',
+    'prefix': 'blogic_rshift',
     'body': 'bit.blogic_rshift(${1:n}, ${2:bits})'
   'bit.bxor':
-    'prefix': 'bit.bxor',
+    'prefix': 'bxor',
     'body': 'bit.bxor(${1:m}, ${2:n})'
   'bit.bor':
-    'prefix': 'bit.bor',
+    'prefix': 'bor',
     'body': 'bit.bor(${1:m}, ${2:n})'
   'bit.band':
-    'prefix': 'bit.band',
+    'prefix': 'band',
     'body': 'bit.band(${1:m}, ${2:n})'
   'bit.bnot':
-    'prefix': 'bit.bnot',
+    'prefix': 'bnot',
     'body': 'bit.bnot(${1:n})'
 # CC 'Colors'
   'colors.combine':
-    'prefix': 'colors.combine',
+    'prefix': 'combine',
     'body': 'colors.combine(${1:color1}, ${2:color2,...})'
   'colors.subtract':
-    'prefix': 'colors.subtract',
+    'prefix': 'subtract',
     'body': 'colors.subtract(${1:color1}, ${2:color2,...})'
   'colors.test':
-    'prefix': 'colors.test',
+    'prefix': 'test',
     'body': 'colors.test(${1:colors...}, ${2:color})'
 # CC 'Commands'
   'commands.exec':
-    'prefix': 'commands.exec',
+    'prefix': 'exec',
     'body': 'commands.exec("${1:command}")'
   'commands.execAsync':
-    'prefix': 'commands.execAsync',
+    'prefix': 'execAsync',
     'body': 'commands.execAsync("${1:command}")'
   'commands.list':
-    'prefix': 'commands.list',
+    'prefix': 'list',
     'body': 'commands.list()'
   'commands.getBlockPosition':
-    'prefix': 'commands.getBlockPosition',
+    'prefix': 'getBlockPosition',
     'body': 'commands.getBlockPosition()'
   'commands.getBlockInfo':
-    'prefix': 'commands.getBlockInfo',
+    'prefix': 'getBlockInfo',
     'body': 'commands.getBlockInfo(${1:x}, ${2:y}, ${3:z})'
 # CC 'Coroutine'
   'coroutine.create':
-    'prefix': 'coroutine.create',
+    'prefix': 'create',
     'body': 'coroutine.create(${1:function_f})'
   'coroutine.resume':
-    'prefix': 'coroutine.resume',
+    'prefix': 'resume',
     'body': 'coroutine.resume(${1:coroutine,})'
   'coroutine.running':
-    'prefix': 'coroutine.running',
+    'prefix': 'running',
     'body': 'coroutine.running()'
   'coroutine.status':
-    'prefix': 'coroutine.status',
+    'prefix': 'status',
     'body': 'coroutine.status(${1:coroutine})'
   'coroutine.wrap':
-    'prefix': 'coroutine.wrap',
+    'prefix': 'wrap',
     'body': 'coroutine.wrap(${1:function_f})'
   'coroutine.yield':
-    'prefix': 'coroutine.yield',
+    'prefix': 'yield',
     'body': 'coroutine.yield(${1:...})'
 # CC 'Disk'
   'disk.isPresent':
-    'prefix': 'disk.isPresent',
+    'prefix': 'isPresent',
     'body': 'disk.isPresent("${1:side}")'
   'disk.hasData':
-    'prefix': 'disk.hasData',
+    'prefix': 'hasData',
     'body': 'disk.hasData("${1:side}")'
   'disk.getMountPath':
-    'prefix': 'disk.getMountPath',
+    'prefix': 'getMountPath',
     'body': 'disk.getMountPath("${1:side}")'
   'disk.setLabel':
-    'prefix': 'disk.setLabel',
+    'prefix': 'setLabel',
     'body': 'disk.setLabel("${1:side}", "${2:label...}")'
   'disk.getLabel':
-    'prefix': 'disk.getLabel',
+    'prefix': 'getLabel',
     'body': 'disk.getLabel("${1:side}")'
   'disk.getID':
-    'prefix': 'disk.getID',
+    'prefix': 'getID',
     'body': 'disk.getID("${1:side}")'
   'disk.hasAudio':
-    'prefix': 'disk.hasAudio',
+    'prefix': 'hasAudio',
     'body': 'disk.hasAudio("${1:side}")'
   'disk.getAudioTitle':
-    'prefix': 'disk.getAudioTitle',
+    'prefix': 'getAudioTitle',
     'body': 'disk.getAudioTitle("${1:side}")'
   'disk.playAudio':
-    'prefix': 'disk.playAudio',
+    'prefix': 'playAudio',
     'body': 'disk.playAudio("${1:side}")'
   'disk.stopAudio':
-    'prefix': 'disk.stopAudio',
+    'prefix': 'stopAudio',
     'body': 'disk.stopAudio("${1:side}")'
   'disk.eject':
-    'prefix': 'disk.eject',
+    'prefix': 'eject',
     'body': 'disk.eject("${1:side}")'
 # CC 'Fs'
   'fs.list':
-    'prefix': 'fs.list',
+    'prefix': 'list',
     'body': 'fs.list("${1:path}")'
   'fs.exists':
-    'prefix': 'fs.exists',
+    'prefix': 'exists',
     'body': 'fs.exists("${1:path}")'
   'fs.isDir':
-    'prefix': 'fs.isDir',
+    'prefix': 'isDir',
     'body': 'fs.isDir("${1:path}")'
   'fs.isReadOnly':
-    'prefix': 'fs.isReadOnly',
+    'prefix': 'isReadOnly',
     'body': 'fs.isReadOnly("${1:path}")'
   'fs.getName':
-    'prefix': 'fs.getName',
+    'prefix': 'getName',
     'body': 'fs.getName("${1:path}")'
   'fs.getDrive':
-    'prefix': 'fs.getDrive',
+    'prefix': 'getDrive',
     'body': 'fs.getDrive("${1:path}")'
   'fs.getSize':
-    'prefix': 'fs.getSize',
+    'prefix': 'getSize',
     'body': 'fs.getSize("${1:path}")'
   'fs.getFreeSpace':
-    'prefix': 'fs.getFreeSpace',
+    'prefix': 'getFreeSpace',
     'body': 'fs.getFreeSpace("${1:path}")'
   'fs.makeDir':
-    'prefix': 'fs.makeDir',
+    'prefix': 'makeDir',
     'body': 'fs.makeDir("${1:path}")'
   'fs.move':
-    'prefix': 'fs.move',
+    'prefix': 'move',
     'body': 'fs.move("${1:path}", "${2:destination}")'
   'fs.copy':
-    'prefix': 'fs.copy',
+    'prefix': 'copy',
     'body': 'fs.copy("${1:path}", "${2:destination}")'
   'fs.delete':
-    'prefix': 'fs.delete',
+    'prefix': 'delete',
     'body': 'fs.delete("${1:path}")'
   'fs.combine':
-    'prefix': 'fs.combine',
+    'prefix': 'combine',
     'body': 'fs.combine("${1:base path}", "${2:local path}")'
   'fs.open':
-    'prefix': 'fs.open',
+    'prefix': 'open',
     'body': 'fs.open("${1:path}", ${2:mode})'
   'fs.find':
-    'prefix': 'fs.find',
+    'prefix': 'find',
     'body': 'fs.find(${1:wildcard})'
   'fs.getDir':
-    'prefix': 'fs.getDir',
+    'prefix': 'getDir',
     'body': 'fs.getDir("${1:path}")'
   'fs.complete':
-    'prefix': 'fs.complete',
+    'prefix': 'complete',
 #explicit booleans
     'body': 'fs.complete($"{1:partial name}", "${2:path...}", ${3:[include files?]}, ${[include '/'?]})'
   'fs.delete':
-    'prefix': 'fs.delete',
+    'prefix': 'delete',
     'body': 'fs.delete("${1:path}")'
 # CC 'GPS'
   'gps.locate':
-    'prefix': 'gps.locate',
+    'prefix': 'locate',
     'body': 'gps.locate(${1:timeout}, ${2:[debug?]})'
 # CC 'Help'
   'help.path':
-    'prefix': 'help.path',
+    'prefix': 'path',
     'body': 'help.path()'
   'help.setPath':
-    'prefix': 'help.setPath',
+    'prefix': 'setPath',
     'body': 'fs.setPath("${1:path}")'
   'help.lookup':
-    'prefix': 'help.lookup',
+    'prefix': 'lookup',
     'body': 'help.lookup("${1:topic}")'
   'help.topics':
-    'prefix': 'help.topics',
+    'prefix': 'topics',
     'body': 'help.topics()'
 # CC 'HTTP'
 # Check to see if these are correct
   'http.request':
-    'prefix': 'http.request',
+    'prefix': 'request',
     'body': 'http.request("${1:URL}", "${2:postData}", ${3:headers})'
   'http.get':
-    'prefix': 'http.get',
+    'prefix': 'get',
     'body': 'http.get("${1:URL}", ${3:headers})'
   'http.post':
-    'prefix': 'http.post',
+    'prefix': 'post',
     'body': 'http.post("${1:URL}", "${2:postData}", ${3:headers})'
 # CC 'Keys'
   'keys.getName':
-    'prefix': 'keys.getName',
+    'prefix': 'getName',
     'body': 'keys.getName(${1:numCode})'
 # CC 'Multishell'
   'multishell.getCurrent':
-    'prefix': 'multishell.getCurrent',
+    'prefix': 'getCurrent',
     'body': 'multishell.getCurrent()'
   'multishell.getCount':
-    'prefix': 'multishell.getCount',
+    'prefix': 'getCount'
     'body': 'multishell.getCount()'
   'multishell.launch':
-    'prefix': 'multishell.launch',
+    'prefix': 'launch',
     'body': 'multishell.launch({${1:environment}}, "${2:path...}", ${3:args})'
   'multishell.setFocus':
-    'prefix': 'multishell.setFocus',
+    'prefix': 'setFocus',
     'body': 'multishell.setFocus(${1:tabID})'
   'multishell.setTitle':
-    'prefix': 'multishell.setTitle',
+    'prefix': 'setTitle',
     'body': 'multishell.setTitle(${1:tabID}, "${2:title}")'
   'multishell.getTitle':
-    'prefix': 'multishell.getTitle',
+    'prefix': 'getTitle',
     'body': 'multishell.getTitle(${1:tabID})'
   'multishell.getFocus':
-    'prefix': 'multishell.getFocus',
+    'prefix': 'getFocus',
     'body': 'multishell.getFocus()'
 # CC 'OS'
   'os.version':
-    'prefix': 'os.version',
+    'prefix': 'version',
     'body': 'os.version()'
   'os.getComputerID':
-    'prefix': 'os.getComputerID',
+    'prefix': 'getComputerID',
     'body': 'os.getComputerID()'
   'os.getComputerLabel':
-    'prefix': 'os.getComputerLabel',
+    'prefix': 'getComputerLabel',
     'body': 'os.getComputerLabel()'
   'os.setComputerLabel':
-    'prefix': 'os.setComputerLabel',
+    'prefix': 'setComputerLabel',
     'body': 'os.setComputerLabel("${1:label/nil}")'
   'os.run':
-    'prefix': 'os.run',
+    'prefix': 'run',
     'body': 'os.run({${1:environment}}, "${2:path...}", ${3:args})'
   'os.loadAPI':
-    'prefix': 'os.loadAPI',
+    'prefix': 'loadAPI',
     'body': 'os.loadAPI("${1:path}")'
   'os.unloadAPI':
-    'prefix': 'os.unloadAPI',
+    'prefix': 'unloadAPI',
     'body': 'os.unloadAPI("${1:name}")'
 # Test this.
   'os.pullEvent':
-    'prefix': 'os.pullEvent',
+    'prefix': 'pullEvent',
     'body': 'os.pullEvent("${1:target-event}"${2:, parameters})'
   'os.pullEventRaw':
-    'prefix': 'os.pullEventRaw',
+    'prefix': 'pullEventRaw',
     'body': 'os.pullEventRaw("${1:target-event}"${2:, parameters}))'
   'os.queueEvent':
-    'prefix': 'os.queueEvent',
+    'prefix': 'queueEvent',
     'body': 'os.queueEvent("${1:event}"${2:, parameters})'
   'os.clock':
-    'prefix': 'os.clock',
+    'prefix': 'clock',
     'body': 'os.clock()'
   'os.startTimer':
-    'prefix': 'os.startTimer',
+    'prefix': 'startTimer',
     'body': 'os.startTimer(${1:timeout})'
   'os.cancelTimer':
-    'prefix': 'os.cancelTimer',
+    'prefix': 'cancelTimer',
     'body': 'os.cancelTimer(${1:timerID})'
   'os.time':
-    'prefix': 'os.time',
+    'prefix': 'time',
     'body': 'os.time()'
   'os.sleep':
-    'prefix': 'os.sleep',
+    'prefix': 'sleep',
     'body': 'os.sleep(${time})'
   'os.day':
-    'prefix': 'os.day',
+    'prefix': 'day',
     'body': 'os.day()'
   'os.setAlarm':
-    'prefix': 'os.setAlarm',
+    'prefix': 'setAlarm',
     'body': 'os.setAlarm(${time})'
   'os.cancelAlarm':
-    'prefix': 'os.cancelAlarm',
+    'prefix': 'cancelAlarm',
     'body': 'os.cancelAlarm(${alarmID})'
   'os.shutdown':
-    'prefix': 'os.shutdown',
+    'prefix': 'shutdown',
     'body': 'os.shutdown()'
   'os.reboot':
-    'prefix': 'os.reboot',
+    'prefix': 'reboot',
     'body': 'os.reboot()'
 # CC 'Paintutils'
 # Have these tested.
   'paintutils.loadImage':
-    'prefix': 'paintutils.loadImage',
+    'prefix': 'loadImage',
     'body': 'paintutils.loadImage("${1:path}")'
   'paintutils.drawImage':
-    'prefix': 'paintutils.drawImage',
+    'prefix': 'drawImage',
     'body': 'paintutils.drawImage(${1:[image]}, ${2:x}, ${3:y})'
   'paintutils.drawPixel':
-    'prefix': 'paintutils.drawPixel',
+    'prefix': 'drawPixel',
     'body': 'paintutils.drawPixel(${1:x}, ${2:y}, colors.${3:color})'
   'paintutils.drawLine':
-    'prefix': 'paintutils.drawLine',
+    'prefix': 'drawLine',
     'body': 'paintutils.drawLine(${1:startX}, ${2:Starty}, ${1:endX}, ${2:endy}, colors.${3:color})'
   'paintutils.drawBox':
-    'prefix': 'paintutils.drawBox',
+    'prefix': 'drawBox',
     'body': 'paintutils.drawBox(${1:startX}, ${2:Starty}, ${1:endX}, ${2:endy}, colors.${3:color})'
   'paintutils.drawFilledBox':
-    'prefix': 'paintutils.drawFilledBox',
+    'prefix': 'drawFilledBox',
     'body': 'paintutils.drawFilledBox(${1:startX}, ${2:Starty}, ${1:endX}, ${2:endy}, colors.${3:color})'
 # CC 'Parallel'
   'parallel.waitForAny':
-    'prefix': 'parallel.waitForAny',
+    'prefix': 'waitForAny',
     'body': 'parallel.waitForAny(${1:function1}, ${2:function2,..})'
   'parallel.waitForAll':
-    'prefix': 'parallel.waitForAll',
+    'prefix': 'waitForAll',
     'body': 'parallel.waitForAll(${1:function1}, ${2:function2,..})'
 # CC 'Peripheral'
   'peripheral.isPresent':
-    'prefix': 'peripheral.isPresent',
+    'prefix': 'isPresent',
     'body': 'peripheral.isPresent("${1:side}")'
   'peripheral.getType':
-    'prefix': 'peripheral.getType',
+    'prefix': 'getType',
     'body': 'peripheral.getType("${1:side}")'
   'peripheral.getMethods':
-    'prefix': 'peripheral.getMethods',
+    'prefix': 'getMethods',
     'body': 'peripheral.getMethods("${1:side}")'
   'peripheral.call':
-    'prefix': 'peripheral.call',
+    'prefix': 'call',
     'body': 'peripheral.call("${1:side}", ${2:method,...})'
   'peripheral.wrap':
-    'prefix': 'peripheral.wrap',
+    'prefix': 'wrap',
     'body': 'peripheral.wrap("${1:side}")'
   'peripheral.find':
-    'prefix': 'peripheral.find',
+    'prefix': 'find',
     'body': 'peripheral.find("${1:type}", ${2:function}(${3:name}, ${4:object}))'
   'peripheral.getNames':
-    'prefix': 'peripheral.getNames',
+    'prefix': 'getNames',
     'body': 'peripheral.getNames()'
 # CC Peripheral 'Command Block'
-   'commandBlock.getCommand':
-     'prefix': 'commandBlock.getCommand',
-     'body': 'commandBlock.getCommand()'
-   'commandBlock.setCommand':
-     'prefix': 'commandBlock.setCommand',
-     'body': 'commandBlock.commandBlock("${1:command}")'
-   'commandBlock.runCommand':
-     'prefix': 'commandBlock.runCommand',
-     'body': 'commandBlock.runCommand()'
+  'commandBlock.getCommand':
+    'prefix': 'getCommand',
+    'body': 'commandBlock.getCommand()'
+  'commandBlock.setCommand':
+    'prefix': 'setCommand',
+    'body': 'commandBlock.commandBlock("${1:command}")'
+  'commandBlock.runCommand':
+    'prefix': 'runCommand',
+    'body': 'commandBlock.runCommand()'
 # CC Peripheral 'Computer'
-   'computer.turnOn':
-     'prefix': 'computer.turnOn',
-     'body': 'computer.turnOn()'
-   'computer.shutdown':
-     'prefix': 'computer.shutdown',
-     'body': 'computer.shutdown()'
-   'computer.reboot':
-     'prefix': 'computer.reboot',
-     'body': 'computer.reboot()'
-   'computer.getID':
-     'prefix': 'computer.getID',
-     'body': 'computer.getID()'
-   'computer.isOn':
-     'prefix': 'computer.isOn',
-     'body': 'computer.isOn()'
+  'computer.turnOn':
+    'prefix': 'turnOn',
+    'body': 'computer.turnOn()'
+  'computer.shutdown':
+    'prefix': 'shutdown',
+    'body': 'computer.shutdown()'
+  'computer.reboot':
+    'prefix': 'reboot',
+    'body': 'computer.reboot()'
+  'computer.getID':
+    'prefix': 'getID',
+    'body': 'computer.getID()'
+  'computer.isOn':
+    'prefix': 'isOn',
+    'body': 'computer.isOn()'
 # CC Peripheral 'Modem'
-   'modem.isOpen':
-     'prefix': 'modem.isOpen',
-     'body': 'modem.isOpen(${1:channel})'
-   'modem.open':
-     'prefix': 'modem.open',
-     'body': 'modem.open(${1:channel})'
-   'modem.close':
-     'prefix': 'modem.close',
-     'body': 'modem.close(${1:channel})'
-   'modem.closeAll':
-     'prefix': 'modem.closeAll',
-     'body': 'modem.closeAll()'
-   'modem.transmit':
-     'prefix': 'modem.transmit',
-     'body': 'modem.transmit(${1:channel}, ${2:replyChannel}, ${3:message})'
-   'modem.isWireless':
-     'prefix': 'modem.isWireless',
-     'body': 'modem.isWireless()'
+  'modem.isOpen':
+    'prefix': 'isOpen',
+    'body': 'modem.isOpen(${1:channel})'
+  'modem.open':
+    'prefix': 'open',
+    'body': 'modem.open(${1:channel})'
+  'modem.close':
+    'prefix': 'close',
+    'body': 'modem.close(${1:channel})'
+  'modem.closeAll':
+    'prefix': 'closeAll',
+    'body': 'modem.closeAll()'
+  'modem.transmit':
+    'prefix': 'transmit',
+    'body': 'modem.transmit(${1:channel}, ${2:replyChannel}, ${3:message})'
+  'modem.isWireless':
+    'prefix': 'isWireless',
+    'body': 'modem.isWireless()'
 # CC Peripheral 'Printer'
-   'printer.newPage':
-     'prefix': 'printer.newPage',
-     'body': 'printer.newPage()'
-   'printer.endPage':
-     'prefix': 'printer.endPage',
-     'body': 'printer.endPage()'
-   'printer.write':
-     'prefix': 'printer.write',
-     'body': 'printer.write("${1:text}")'
-   'printer.setCursorPos':
-     'prefix': 'printer.setCursorPos',
-     'body': 'printer.setCursorPos(${1:x}, ${2:y})'
-   'printer.getCursorPos':
-     'prefix': 'printer.getCursorPos',
-     'body': 'printer.getCursorPos()'
-   'printer.getPageSize':
-     'prefix': 'printer.getPageSize',
-     'body': 'printer.getPageSize()'
-   'printer.setPageTitle':
-     'prefix': 'printer.setPageTitle',
-     'body': 'printer.setPageTitle("${1:title}")'
-   'printer.getPaperLevel':
-     'prefix': 'printer.getPaperLevel',
-     'body': 'printer.getPaperLevel()'
-   'printer.getInkLevel':
-     'prefix': 'printer.getInkLevel',
-     'body': 'printer.getInkLevel()'
+  'printer.newPage':
+    'prefix': 'newPage',
+    'body': 'printer.newPage()'
+  'printer.endPage':
+    'prefix': 'endPage',
+    'body': 'printer.endPage()'
+  'printer.write':
+    'prefix': 'write',
+    'body': 'printer.write("${1:text}")'
+  'printer.setCursorPos':
+    'prefix': 'setCursorPos',
+    'body': 'printer.setCursorPos(${1:x}, ${2:y})'
+  'printer.getCursorPos':
+    'prefix': 'getCursorPos',
+    'body': 'printer.getCursorPos()'
+  'printer.getPageSize':
+    'prefix': 'getPageSize',
+    'body': 'printer.getPageSize()'
+  'printer.setPageTitle':
+    'prefix': 'setPageTitle',
+    'body': 'printer.setPageTitle("${1:title}")'
+  'printer.getPaperLevel':
+    'prefix': 'getPaperLevel',
+    'body': 'printer.getPaperLevel()'
+  'printer.getInkLevel':
+    'prefix': 'getInkLevel',
+    'body': 'printer.getInkLevel()'
 # CC 'Rednet'
-   'rednet.open':
-     'prefix': 'rednet.open',
-     'body': 'rednet.open("${1:side}")'
-   'rednet.close':
-     'prefix': 'rednet.close',
-     'body': 'rednet.close("${1:side}")'
-   'rednet.send':
-     'prefix': 'rednet.send',
-     'body': 'rednet.send(${1:receiverID}, ${2:message}, "${3:protocol}")'
-   'rednet.broadcast':
-     'prefix': 'rednet.broadcast',
-     'body': 'rednet.broadcast(${1:message}, "${2:protocol}")'
-   'rednet.receive':
-     'prefix': 'rednet.receive',
-     'body': 'rednet.receive("${1:protocolFilter}", ${2:timeout})'
-   'rednet.isOpen':
-     'prefix': 'rednet.isOpen',
-     'body': 'rednet.isOpen("${1:side}")'
-   'rednet.host':
-     'prefix': 'rednet.host',
-     'body': 'rednet.host("${1:protocol}", "${2:hostname}")'
-   'rednet.run':
-     'prefix': 'rednet.run',
-     'body': 'rednet.run()'
+  'rednet.open':
+    'prefix': 'open',
+    'body': 'rednet.open("${1:side}")'
+  'rednet.close':
+    'prefix': 'close',
+    'body': 'rednet.close("${1:side}")'
+  'rednet.send':
+    'prefix': 'send',
+    'body': 'rednet.send(${1:receiverID}, ${2:message}, "${3:protocol}")'
+  'rednet.broadcast':
+    'prefix': 'broadcast',
+    'body': 'rednet.broadcast(${1:message}, "${2:protocol}")'
+  'rednet.receive':
+    'prefix': 'receive',
+    'body': 'rednet.receive("${1:protocolFilter}", ${2:timeout})'
+  'rednet.isOpen':
+    'prefix': 'isOpen',
+    'body': 'rednet.isOpen("${1:side}")'
+  'rednet.host':
+    'prefix': 'host',
+    'body': 'rednet.host("${1:protocol}", "${2:hostname}")'
+  'rednet.run':
+    'prefix': 'run',
+    'body': 'rednet.run()'
 # CC 'Redstone'
-   'redstone.getSides':
-     'prefix': 'redstone.getSides',
-     'body': 'redstone.getSides()'
-   'redstone.getInput':
-     'prefix': 'redstone.getInput',
-     'body': 'redstone.getInput("${1:side}")'
-   'redstone.setOutput':
-     'prefix': 'redstone.setOutput',
-     'body': 'redstone.setOutput("${1:side}", ${2:True})'
-   'redstone.getOutput':
-     'prefix': 'redstone.getOutput',
-     'body': 'redstone.getOutput("${1:side}")'
-   'redstone.getAnalogInput':
-     'prefix': 'redstone.getAnalogInput',
-     'body': 'redstone.getAnalogInput("${1:side}")'
-   'redstone.setAnalogOutput':
-     'prefix': 'redstone.setAnalogOutput',
-     'body': 'redstone.setAnalogOutput("${1:side}", ${2:strength})'
-   'redstone.getAnalogOutput':
-     'prefix': 'redstone.getAnalogOutput',
-     'body': 'redstone.getAnalogOutput("${1:side}")'
-   'redstone.getBundledInput':
-     'prefix': 'redstone.getBundledInput',
-     'body': 'redstone.getBundledInput("${1:side}")'
-   'redstone.getBundledOutput':
-     'prefix': 'redstone.getBundledOutput',
-     'body': 'redstone.getBundledOutput("${1:side}")'
+  'redstone.getSides':
+    'prefix': 'getSides',
+    'body': 'redstone.getSides()'
+  'redstone.getInput':
+    'prefix': 'getInput',
+    'body': 'redstone.getInput("${1:side}")'
+  'redstone.setOutput':
+    'prefix': 'setOutput',
+    'body': 'redstone.setOutput("${1:side}", ${2:True})'
+  'redstone.getOutput':
+    'prefix': 'getOutput',
+    'body': 'redstone.getOutput("${1:side}")'
+  'redstone.getAnalogInput':
+    'prefix': 'getAnalogInput',
+    'body': 'redstone.getAnalogInput("${1:side}")'
+  'redstone.setAnalogOutput':
+    'prefix': 'setAnalogOutput',
+    'body': 'redstone.setAnalogOutput("${1:side}", ${2:strength})'
+  'redstone.getAnalogOutput':
+    'prefix': 'getAnalogOutput',
+    'body': 'redstone.getAnalogOutput("${1:side}")'
+  'redstone.getBundledInput':
+    'prefix': 'getBundledInput',
+    'body': 'redstone.getBundledInput("${1:side}")'
+  'redstone.getBundledOutput':
+    'prefix': 'getBundledOutput',
+    'body': 'redstone.getBundledOutput("${1:side}")'
 # Do people want to specify numbers for colors or use colors.(x)?
-   'redstone.setBundledOutput':
-     'prefix': 'redstone.setBundledOutput',
-     'body': 'redstone.setBundledOutput("${1:side}", colors.${2:x})'
-   'redstone.testBundledInput':
-     'prefix': 'redstone.testBundledInput',
-     'body': 'redstone.testBundledInput("${1:side}", colors.${2:x})'
+  'redstone.setBundledOutput':
+    'prefix': 'setBundledOutput',
+    'body': 'redstone.setBundledOutput("${1:side}", colors.${2:x})'
+  'redstone.testBundledInput':
+    'prefix': 'testBundledInput',
+    'body': 'redstone.testBundledInput("${1:side}", colors.${2:x})'
 # CC 'Shell'
-   'shell.exit':
-     'prefix': 'shell.exit',
-     'body': 'shell.exit()'
-   'shell.dir':
-     'prefix': 'shell.dir',
-     'body': 'shell.dir()'
-   'shell.setDir':
-     'prefix': 'shell.setDir',
-     'body': 'shell.setDir("${1:path}")'
-   'shell.path':
-     'prefix': 'shell.path',
-     'body': 'shell.path()'
-   'shell.setPath':
-     'prefix': 'shell.setPath',
-     'body': 'shell.setPath("${1:path}")'
-   'shell.resolve':
-     'prefix': 'shell.resolve',
-     'body': 'shell.resolve("${1:localPath}")'
-   'shell.resolveProgram':
-     'prefix': 'shell.resolveProgram',
-     'body': 'shell.resolveProgram("${1:name}")'
-   'shell.aliases':
-     'prefix': 'shell.aliases',
-     'body': 'shell.aliases()'
-   'shell.setAlias':
-     'prefix': 'shell.setAlias',
-     'body': 'shell.setAlias("${1:alias}", "${2:program}")'
-   'shell.clearAlias':
-     'prefix': 'shell.clearAlias',
-     'body': 'shell.clearAlias("${1:alias}")'
-   'shell.programs':
-     'prefix': 'shell.programs',
-     'body': 'shell.programs(${1:[showHidden?]})'
-   'shell.getRunningProgram':
-     'prefix': 'shell.getRunningProgram',
-     'body': 'shell.getRunningProgram()'
-   'shell.run':
-     'prefix': 'shell.run',
-     'body': 'shell.run("${1:command}"${2:, "args..."})'
-   'shell.openTab':
-     'prefix': 'shell.openTab',
-     'body': 'shell.openTab("${1:command}"${2:, "args..."})'
-   'shell.switchTab':
-     'prefix': 'shell.switchTab',
-     'body': 'shell.switchTab(${1:tabID})'
+  'shell.exit':
+    'prefix': 'exit',
+    'body': 'shell.exit()'
+  'shell.dir':
+    'prefix': 'dir',
+    'body': 'shell.dir()'
+  'shell.setDir':
+    'prefix': 'setDir',
+    'body': 'shell.setDir("${1:path}")'
+  'shell.path':
+    'prefix': 'path',
+    'body': 'shell.path()'
+  'shell.setPath':
+    'prefix': 'setPath',
+    'body': 'shell.setPath("${1:path}")'
+  'shell.resolve':
+    'prefix': 'resolve',
+    'body': 'shell.resolve("${1:localPath}")'
+  'shell.resolveProgram':
+    'prefix': 'resolveProgram',
+    'body': 'shell.resolveProgram("${1:name}")'
+  'shell.aliases':
+    'prefix': 'aliases',
+    'body': 'shell.aliases()'
+  'shell.setAlias':
+    'prefix': 'setAlias',
+    'body': 'shell.setAlias("${1:alias}", "${2:program}")'
+  'shell.clearAlias':
+    'prefix': 'clearAlias',
+    'body': 'shell.clearAlias("${1:alias}")'
+  'shell.programs':
+    'prefix': 'programs',
+    'body': 'shell.programs(${1:[showHidden?]})'
+  'shell.getRunningProgram':
+    'prefix': 'getRunningProgram',
+    'body': 'shell.getRunningProgram()'
+  'shell.run':
+    'prefix': 'run',
+    'body': 'shell.run("${1:command}"${2:, "args..."})'
+  'shell.openTab':
+    'prefix': 'openTab',
+    'body': 'shell.openTab("${1:command}"${2:, "args..."})'
+  'shell.switchTab':
+    'prefix': 'switchTab',
+    'body': 'shell.switchTab(${1:tabID})'
 # CC 'Term'
-   'term.write':
-     'prefix': 'term.write',
-     'body': 'term.write("${1:text}")'
-   'term.blit':
-     'prefix': 'term.blit',
-     'body': 'term.blit("${1:text}", "${2:colors}", "${3:bgColors}")'
-   'term.clear':
-     'prefix': 'term.clear',
-     'body': 'term.clear()'
-   'term.clearLine':
-     'prefix': 'term.clearLine',
-     'body': 'term.clearLine()'
-   'term.getCursorPos':
-     'prefix': 'term.getCursorPos',
-     'body': 'term.getCursorPos(${1:x}, ${2:y})'
-   'term.setCursorBlink':
-     'prefix': 'term.setCursorBlink',
-     'body': 'term.setCursorBlink(${1:[True]})'
-   'term.isColor':
-     'prefix': 'term.isColor',
-     'body': 'term.isColor()'
-   'term.write':
-     'prefix': 'term.write',
-     'body': 'term.write("${1:text}")'
-   'term.blit':
-     'prefix': 'term.blit',
-     'body': 'term.blit("${1:text}", "${2:colors}", "${3:bgColors}")'
-   'term.clear':
-     'prefix': 'term.clear',
-     'body': 'term.clear()'
-   'term.clearLine':
-     'prefix': 'term.clearLine',
-     'body': 'term.clearLine()'
-   'term.getCursorPos':
-     'prefix': 'term.getCursorPos',
-     'body': 'term.getCursorPos(${1:x}, ${2:y})'
-   'term.setCursorBlink':
-     'prefix': 'term.setCursorBlink',
-     'body': 'term.setCursorBlink(${1:[True]})'
-   'term.getSize':
-     'prefix': 'term.getSize',
-     'body': 'term.getSize()'
-   'term.scroll':
-     'prefix': 'term.scroll',
-     'body': 'term.scroll(${1:n})'
-   'term.redirect':
-     'prefix': 'term.redirect',
-     'body': 'term.redirect(${1:target})'
-   'term.current':
-     'prefix': 'term.current',
-     'body': 'term.current()'
-   'term.native':
-     'prefix': 'term.native',
-     'body': 'term.native()'
-   'term.setTextColor':
-     'prefix': 'term.setTextColor',
-     'body': 'term.setTextColor(colors.${1:x})'
-   'term.getTextColor':
-     'prefix': 'term.getTextColor',
-     'body': 'term.getTextColor()'
-   'term.setBackgroundColor':
-     'prefix': 'term.setBackgroundColor',
-     'body': 'term.setBackgroundColor(colors.${1:x})'
-   'term.getBackgroundColor':
-     'prefix': 'term.getBackgroundColor',
-     'body': 'term.getBackgroundColor()'
-   'monitor.setTextScale':
-     'prefix': 'monitor.setTextScale',
-     'body': 'monitor.setTextScale(${1:scale})'
+  'term.write':
+    'prefix': 'write',
+    'body': 'term.write("${1:text}")'
+  'term.blit':
+    'prefix': 'blit',
+    'body': 'term.blit("${1:text}", "${2:colors}", "${3:bgColors}")'
+  'term.clear':
+    'prefix': 'clear',
+    'body': 'term.clear()'
+  'term.clearLine':
+    'prefix': 'clearLine',
+    'body': 'term.clearLine()'
+  'term.getCursorPos':
+    'prefix': 'getCursorPos',
+    'body': 'term.getCursorPos(${1:x}, ${2:y})'
+  'term.setCursorBlink':
+    'prefix': 'setCursorBlink',
+    'body': 'term.setCursorBlink(${1:[True]})'
+  'term.isColor':
+    'prefix': 'isColor',
+    'body': 'term.isColor()'
+  'term.write':
+    'prefix': 'write',
+    'body': 'term.write("${1:text}")'
+  'term.blit':
+    'prefix': 'blit',
+    'body': 'term.blit("${1:text}", "${2:colors}", "${3:bgColors}")'
+  'term.clear':
+    'prefix': 'clear',
+    'body': 'term.clear()'
+  'term.clearLine':
+    'prefix': 'clearLine',
+    'body': 'term.clearLine()'
+  'term.getCursorPos':
+    'prefix': 'getCursorPos',
+    'body': 'term.getCursorPos(${1:x}, ${2:y})'
+  'term.setCursorBlink':
+    'prefix': 'setCursorBlink',
+    'body': 'term.setCursorBlink(${1:[True]})'
+  'term.getSize':
+    'prefix': 'getSize',
+    'body': 'term.getSize()'
+  'term.scroll':
+    'prefix': 'scroll',
+    'body': 'term.scroll(${1:n})'
+  'term.redirect':
+    'prefix': 'redirect',
+    'body': 'term.redirect(${1:target})'
+  'term.current':
+    'prefix': 'current',
+    'body': 'term.current()'
+  'term.native':
+    'prefix': 'native',
+    'body': 'term.native()'
+  'term.setTextColor':
+    'prefix': 'setTextColor',
+    'body': 'term.setTextColor(colors.${1:x})'
+  'term.getTextColor':
+    'prefix': 'getTextColor',
+    'body': 'term.getTextColor()'
+  'term.setBackgroundColor':
+    'prefix': 'setBackgroundColor',
+    'body': 'term.setBackgroundColor(colors.${1:x})'
+  'term.getBackgroundColor':
+    'prefix': 'getBackgroundColor',
+    'body': 'term.getBackgroundColor()'
+  'monitor.setTextScale':
+    'prefix': 'setTextScale',
+    'body': 'monitor.setTextScale(${1:scale})'
 # CC 'Textutils'
-   'textutils.slowWrite':
-     'prefix': 'textutils.slowWrite',
-     'body': 'textutils.slowWrite("${1:text}", ${2:rate})'
-   'textutils.slowPrint':
-     'prefix': 'textutils.slowPrint',
-     'body': 'textutils.slowPrint("${1:text}", ${2:rate})'
-   'textutils.formatTime':
-     'prefix': 'textutils.formatTime',
-     'body': 'textutils.formatTime(${1:time}, ${2:[24hr?]})'
-   'textutils.tabulate':
-     'prefix': 'textutils.tabulate',
-     'body': 'textutils.tabulate(colors.${1:x}, {${2:table}}, colors.${3:y}, {${3:table}...})'
-   'textutils.pagedTabulate':
-     'prefix': 'textutils.pagedTabulate',
-     'body': 'textutils.pagedTabulate(colors.${1:x}, {${2:table}}, colors.${3:y}, {${3:table}...})'
-   'textutils.pagedPrint':
-     'prefix': 'textutils.pagedPrint',
-     'body': 'textutils.pagedPrint("${1:text}", ${2:freeLines})'
-   'textutils.serialize':
-     'prefix': 'textutils.serialize',
-     'body': 'textutils.serialize(${1:...})'
-   'textutils.unserialize':
-     'prefix': 'textutils.unserialize',
-     'body': 'textutils.unserialize("${1:serializedData}")'
-   'textutils.serializeJSON':
-     'prefix': 'textutils.serializeJSON',
-     'body': 'textutils.serializeJSON(${1:...})'
-   'textutils.urlEncode':
-     'prefix': 'textutils.urlEncode',
-     'body': 'textutils.urlEncode("${1:urlUnsafeString}")'
-   'textutils.complete':
-     'prefix': 'textutils.complete',
-     'body': 'textutils.complete($"{1:partial name}", ${2:environment})'
+  'textutils.slowWrite':
+    'prefix': 'slowWrite',
+    'body': 'textutils.slowWrite("${1:text}", ${2:rate})'
+  'textutils.slowPrint':
+    'prefix': 'slowPrint',
+    'body': 'textutils.slowPrint("${1:text}", ${2:rate})'
+  'textutils.formatTime':
+    'prefix': 'formatTime',
+    'body': 'textutils.formatTime(${1:time}, ${2:[24hr?]})'
+  'textutils.tabulate':
+    'prefix': 'tabulate',
+    'body': 'textutils.tabulate(colors.${1:x}, {${2:table}}, colors.${3:y}, {${3:table}...})'
+  'textutils.pagedTabulate':
+    'prefix': 'pagedTabulate',
+    'body': 'textutils.pagedTabulate(colors.${1:x}, {${2:table}}, colors.${3:y}, {${3:table}...})'
+  'textutils.pagedPrint':
+    'prefix': 'pagedPrint',
+    'body': 'textutils.pagedPrint("${1:text}", ${2:freeLines})'
+  'textutils.serialize':
+    'prefix': 'serialize',
+    'body': 'textutils.serialize(${1:...})'
+  'textutils.unserialize':
+    'prefix': 'unserialize',
+    'body': 'textutils.unserialize("${1:serializedData}")'
+  'textutils.serializeJSON':
+    'prefix': 'serializeJSON',
+    'body': 'textutils.serializeJSON(${1:...})'
+  'textutils.urlEncode':
+    'prefix': 'urlEncode',
+    'body': 'textutils.urlEncode("${1:urlUnsafeString}")'
+  'textutils.complete':
+    'prefix': 'complete',
+    'body': 'textutils.complete($"{1:partial name}", ${2:environment})'
 # CC 'Turtle'
-   'turtle.craft':
-     'prefix': 'turtle.craft',
-     'body': 'turtle.craft(${1:qty?})'
-   'turtle.forward':
-     'prefix': 'turtle.forward',
-     'body': 'turtle.forward()'
-   'turtle.back':
-     'prefix': 'turtle.back',
-     'body': 'turtle.back()'
-   'turtle.up':
-     'prefix': 'turtle.up',
-     'body': 'turtle.up()'
-   'turtle.down':
-     'prefix': 'turtle.down',
-     'body': 'turtle.down()'
-   'turtle.turnLeft':
-     'prefix': 'turtle.turnLeft',
-     'body': 'turtle.turnLeft()'
-   'turtle.turnRight':
-     'prefix': 'turtle.turnRight',
-     'body': 'turtle.turnRight()'
-   'turtle.select':
-     'prefix': 'turtle.select',
-     'body': 'turtle.select(${1:slotNum})'
-   'turtle.getSelectedSlot':
-     'prefix': 'turtle.getSelectedSlot',
-     'body': 'turtle.getSelectedSlot()'
-   'turtle.getItemCount':
-     'prefix': 'turtle.getItemCount',
-     'body': 'turtle.getItemCount(${1:slotNum})'
-   'turtle.getItemSpace':
-     'prefix': 'turtle.getItemSpace',
-     'body': 'turtle.getItemSpace(${1:slotNum})'
-   'turtle.getItemDetail':
-     'prefix': 'turtle.getItemDetail',
-     'body': 'turtle.getItemDetail(${1:slotNum})'
-   'turtle.equipLeft':
-     'prefix': 'turtle.equipLeft',
-     'body': 'turtle.equipLeft()'
-   'turtle.equipRight':
-     'prefix': 'turtle.equipRight',
-     'body': 'turtle.equipRight()'
-   'turtle.attack':
-     'prefix': 'turtle.attack',
-     'body': 'turtle.attack()'
-   'turtle.attackUp':
-     'prefix': 'turtle.attackUp',
-     'body': 'turtle.attackUp()'
-   'turtle.attackDown':
-     'prefix': 'turtle.attackDown',
-     'body': 'turtle.attackDown()'
-   'turtle.dig':
-     'prefix': 'turtle.dig',
-     'body': 'turtle.dig()'
-   'turtle.digUp':
-     'prefix': 'turtle.digUp',
-     'body': 'turtle.digUp()'
-   'turtle.digDown':
-     'prefix': 'turtle.digDown',
-     'body': 'turtle.digDown()'
-   'turtle.place':
-     'prefix': 'turtle.place',
-     'body': 'turtle.place()'
-   'turtle.placeSign':
-     'prefix': 'turtle.place',
-     'body': 'turtle.place("${1:signText}")'
-   'turtle.placeUp':
-     'prefix': 'turtle.placeUp',
-     'body': 'turtle.placeUp()'
-   'turtle.placeDown':
-     'prefix': 'turtle.placeDown',
-     'body': 'turtle.placeDown()'
-   'turtle.detect':
-     'prefix': 'turtle.detect',
-     'body': 'turtle.detect()'
-   'turtle.detectUp':
-     'prefix': 'turtle.detectUp',
-     'body': 'turtle.detectUp()'
-   'turtle.detectDown':
-     'prefix': 'turtle.detectDown',
-     'body': 'turtle.detectDown()'
-   'turtle.inspect':
-     'prefix': 'turtle.inspect',
-     'body': 'turtle.inspect()'
-   'turtle.inspectUp':
-     'prefix': 'turtle.inspectUp',
-     'body': 'turtle.inspectUp()'
-   'turtle.inspectDown':
-     'prefix': 'turtle.inspectDown',
-     'body': 'turtle.inspectDown()'
-   'turtle.compare':
-     'prefix': 'turtle.compare',
-     'body': 'turtle.compare()'
-   'turtle.compareUp':
-     'prefix': 'turtle.compareUp',
-     'body': 'turtle.compareUp()'
-   'turtle.compareDown':
-     'prefix': 'turtle.compareDown',
-     'body': 'turtle.compareDown()'
-   'turtle.compareTo':
-     'prefix': 'turtle.compareTo',
-     'body': 'turtle.compareTo(${1:numSlot})'
-   'turtle.drop':
-     'prefix': 'turtle.drop',
-     'body': 'turtle.drop(${1:count?})'
-   'turtle.dropUp':
-     'prefix': 'turtle.dropUp',
-     'body': 'turtle.dropUp(${1:count?})'
-   'turtle.dropDown':
-     'prefix': 'turtle.dropDown',
-     'body': 'turtle.dropDown(${1:count?})'
-   'turtle.suck':
-     'prefix': 'turtle.suck',
-     'body': 'turtle.suck(${1:amount?})'
-   'turtle.suckUp':
-     'prefix': 'turtle.suckUp',
-     'body': 'turtle.suckUp(${1:amount?})'
-   'turtle.suckDown':
-     'prefix': 'turtle.suckDown',
-     'body': 'turtle.suckDown(${1:amount?})'
-   'turtle.refuel':
-     'prefix': 'turtle.refuel',
-     'body': 'turtle.refuel(${1:qty?})'
-   'turtle.getFuelLevel':
-     'prefix': 'turtle.getFuelLevel',
-     'body': 'turtle.getFuelLevel()'
-   'turtle.getFuelLimit':
-     'prefix': 'turtle.getFuelLimit',
-     'body': 'turtle.getFuelLimit()'
-   'turtle.transferTo':
-     'prefix': 'turtle.transferTo',
-     'body': 'turtle.transferTo(${1:slot}, ${2:qty?})'
+  'turtle.craft':
+    'prefix': 'craft',
+    'body': 'turtle.craft(${1:qty?})'
+  'turtle.forward':
+    'prefix': 'forward',
+    'body': 'turtle.forward()'
+  'turtle.back':
+    'prefix': 'back',
+    'body': 'turtle.back()'
+  'turtle.up':
+    'prefix': 'up',
+    'body': 'turtle.up()'
+  'turtle.down':
+    'prefix': 'down',
+    'body': 'turtle.down()'
+  'turtle.turnLeft':
+    'prefix': 'turnLeft',
+    'body': 'turtle.turnLeft()'
+  'turtle.turnRight':
+    'prefix': 'turnRight',
+    'body': 'turtle.turnRight()'
+  'turtle.select':
+    'prefix': 'select',
+    'body': 'turtle.select(${1:slotNum})'
+  'turtle.getSelectedSlot':
+    'prefix': 'getSelectedSlot',
+    'body': 'turtle.getSelectedSlot()'
+  'turtle.getItemCount':
+    'prefix': 'getItemCount',
+    'body': 'turtle.getItemCount(${1:slotNum})'
+  'turtle.getItemSpace':
+    'prefix': 'getItemSpace',
+    'body': 'turtle.getItemSpace(${1:slotNum})'
+  'turtle.getItemDetail':
+    'prefix': 'getItemDetail',
+    'body': 'turtle.getItemDetail(${1:slotNum})'
+  'turtle.equipLeft':
+    'prefix': 'equipLeft',
+    'body': 'turtle.equipLeft()'
+  'turtle.equipRight':
+    'prefix': 'equipRight',
+    'body': 'turtle.equipRight()'
+  'turtle.attack':
+    'prefix': 'attack',
+    'body': 'turtle.attack()'
+  'turtle.attackUp':
+    'prefix': 'attackUp',
+    'body': 'turtle.attackUp()'
+  'turtle.attackDown':
+    'prefix': 'attackDown',
+    'body': 'turtle.attackDown()'
+  'turtle.dig':
+    'prefix': 'dig',
+    'body': 'turtle.dig()'
+  'turtle.digUp':
+    'prefix': 'digUp',
+    'body': 'turtle.digUp()'
+  'turtle.digDown':
+    'prefix': 'digDown',
+    'body': 'turtle.digDown()'
+  'turtle.place':
+    'prefix': 'place',
+    'body': 'turtle.place()'
+  'turtle.placeSign':
+    'prefix': 'placeSign',
+    'body': 'turtle.place("${1:signText}")'
+  'turtle.placeUp':
+    'prefix': 'placeUp',
+    'body': 'turtle.placeUp()'
+  'turtle.placeDown':
+    'prefix': 'placeDown',
+    'body': 'turtle.placeDown()'
+  'turtle.detect':
+    'prefix': 'detect',
+    'body': 'turtle.detect()'
+  'turtle.detectUp':
+    'prefix': 'detectUp',
+    'body': 'turtle.detectUp()'
+  'turtle.detectDown':
+    'prefix': 'detectDown',
+    'body': 'turtle.detectDown()'
+  'turtle.inspect':
+    'prefix': 'inspect',
+    'body': 'turtle.inspect()'
+  'turtle.inspectUp':
+    'prefix': 'inspectUp',
+    'body': 'turtle.inspectUp()'
+  'turtle.inspectDown':
+    'prefix': 'inspectDown',
+    'body': 'turtle.inspectDown()'
+  'turtle.compare':
+    'prefix': 'compare',
+    'body': 'turtle.compare()'
+  'turtle.compareUp':
+    'prefix': 'compareUp',
+    'body': 'turtle.compareUp()'
+  'turtle.compareDown':
+    'prefix': 'compareDown',
+    'body': 'turtle.compareDown()'
+  'turtle.compareTo':
+    'prefix': 'compareTo',
+    'body': 'turtle.compareTo(${1:numSlot})'
+  'turtle.drop':
+    'prefix': 'drop',
+    'body': 'turtle.drop(${1:count?})'
+  'turtle.dropUp':
+    'prefix': 'dropUp',
+    'body': 'turtle.dropUp(${1:count?})'
+  'turtle.dropDown':
+    'prefix': 'dropDown',
+    'body': 'turtle.dropDown(${1:count?})'
+  'turtle.suck':
+    'prefix': 'suck',
+    'body': 'turtle.suck(${1:amount?})'
+  'turtle.suckUp':
+    'prefix': 'suckUp',
+    'body': 'turtle.suckUp(${1:amount?})'
+  'turtle.suckDown':
+    'prefix': 'suckDown',
+    'body': 'turtle.suckDown(${1:amount?})'
+  'turtle.refuel':
+    'prefix': 'refuel',
+    'body': 'turtle.refuel(${1:qty?})'
+  'turtle.getFuelLevel':
+    'prefix': 'getFuelLevel',
+    'body': 'turtle.getFuelLevel()'
+  'turtle.getFuelLimit':
+    'prefix': 'getFuelLimit',
+    'body': 'turtle.getFuelLimit()'
+  'turtle.transferTo':
+    'prefix': 'transferTo',
+    'body': 'turtle.transferTo(${1:slot}, ${2:qty?})'
 # CC 'Vector'
-   'vector.new':
-     'prefix': 'vector.new',
-     'body': 'vector.new(${1:x}, ${2:y}, ${3:z})'
+  'vector.new':
+    'prefix': 'new',
+    'body': 'vector.new(${1:x}, ${2:y}, ${3:z})'
 # CC Window
-   'window.create':
-     'prefix': 'window.create',
-     'body': 'window.create(${1:parentTerm}, ${2:xPos}, ${3:yPos}, ${4:width}, ${5:height}, ${6:[visible?]})'
-   'window.setVisible':
-     'prefix': 'window.setVisible',
-     'body': 'window.setVisible(${1:True})'
-   'window.redraw.':
-     'prefix': 'window.redraw',
-     'body': 'window.redraw()'
-   'window.restoreCursor':
-     'prefix': 'window.restoreCursor',
-     'body': 'window.restoreCursor()'
-   'window.getPosition':
-     'prefix': 'window.getPosition',
-     'body': 'window.getPosition()'
-   'window.reposition':
-     'prefix': 'window.reposition',
-     'body': 'window.reposition(${1:xPos}, ${2:yPos}, ${3:width}, ${4:height})'
+  'window.create':
+    'prefix': 'create',
+    'body': 'window.create(${1:parentTerm}, ${2:xPos}, ${3:yPos}, ${4:width}, ${5:height}, ${6:[visible?]})'
+  'window.setVisible':
+    'prefix': 'setVisible',
+    'body': 'window.setVisible(${1:True})'
+  'window.redraw.':
+    'prefix': 'redraw',
+    'body': 'window.redraw()'
+  'window.restoreCursor':
+    'prefix': 'restoreCursor',
+    'body': 'window.restoreCursor()'
+  'window.getPosition':
+    'prefix': 'getPosition',
+    'body': 'window.getPosition()'
+  'window.reposition':
+    'prefix': 'reposition',
+    'body': 'window.reposition(${1:xPos}, ${2:yPos}, ${3:width}, ${4:height})'
