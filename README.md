@@ -3,7 +3,7 @@
 
 Add syntax highlighting and snippets to Lua files in Atom.
 
-To install, clone somewhere and run `atom link` in the cloned directory.
+To install, clone somewhere and run `apm link` in the cloned directory.
 
 Common snippets
 ---
