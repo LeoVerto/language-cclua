@@ -554,9 +554,9 @@
   'printer.newPage':
     'prefix': 'newPage',
     'body': 'printer.newPage()'
-  'printer.endPage':
-    'prefix': 'endPage',
-    'body': 'printer.endPage()'
+  #'printer.endPage':
+  #  'prefix': 'endPage',
+  #  'body': 'printer.endPage()'
   'printer.write':
     'prefix': 'write',
     'body': 'printer.write("${1:text}")'
@@ -801,9 +801,9 @@
   'turtle.up':
     'prefix': 'up',
     'body': 'turtle.up()'
-  'turtle.down':
-    'prefix': 'down',
-    'body': 'turtle.down()'
+  #'turtle.down':
+  #  'prefix': 'down',
+  #  'body': 'turtle.down()'
   'turtle.turnLeft':
     'prefix': 'turnLeft',
     'body': 'turtle.turnLeft()'
